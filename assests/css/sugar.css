@@ -98,11 +98,13 @@ header nav ul li .sub_menu li {
 
 header nav ul li .sub_menu a {
     color: black;
+    border-bottom: none;
 }
 
 header nav ul li .sub_menu li:hover {
 
     background-color: #DDDDDD;
+    
 }
 
 header nav ul li .sub_menu div {
@@ -168,12 +170,12 @@ header .toggler-btn {
 /* Header section end  */
 
 /* Banner section start */
-#banner{
+#banner {
     background: url(../img/aboutimg/sugar-page-banner.jpg)no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
+    height: 300px;
+    background-position: center center;
+    background-size:cover;
+ }
 /* Banner section end */
 
 /* Footer section start */
@@ -183,3 +185,14 @@ footer {
 }
 
 /* Footer section end */
+
+/* max width:992 */
+@media (max-width:992px) {
+    header nav {
+        display: none;
+    }
+  
+    header .toggler-btn {
+        display: block;
+    }
+  }

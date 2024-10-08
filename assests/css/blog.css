@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+#btn1 {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 13px;
+    padding: 5px 20px;
+}
+
+#btn1:hover {
+    background-color: white;
+    color: black;
+
+}
+
+/* Header sect56n start  */
+header {
+    height: 70px;
+}
+
+header .img-fluid {
+    width: 190px;
+    height: 70px;
+    float: left;
+    margin-left: 90px;
+}
+
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+header nav ul li {
+    height: 50px;
+    line-height: 70px;
+    padding: 0px 10px;
+    transition: all 0.3s;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+header nav ul li :hover {
+    border-bottom: 3px solid green;
+
+}
+.header-scroll {
+    box-shadow: 0px 8px 10px 0px gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    transition: all 0.9s;
+}
+
+.header-scroll ul li a {
+    color: black;
+}
+
+.header-scroll .img-fluid {
+    width: 150px;
+}
+
+.header-scroll .toggler-btn {
+    color: black;
+}
+
+.header .offcanvas-body {
+    padding: 0;
+}
+.header .icons
+{
+    margin-top: 0px;
+    float: right;
+    line-height: 70px;
+}
+/* Header section end  */
+/* Cards section start  */
+#cards .row .col-lg-4 .box{
+    margin-top: 30px;
+    border: 2px solid rgb(228, 226, 226);
+}
+#cards .row .col-lg-4 .box img{
+    width: 100%;
+}
+#cards .row .col-lg-4 h4{
+    font-size: 20px;
+    padding: 5px 30px 0px 30px;
+}
+#cards .row .col-lg-4 p{
+    font-size: 15px;
+    padding: 0px 30px 20px 30px;
+}
+#cards .row .col-lg-4 h4:hover{
+    color: #A6824A;
+}
+#cards .row .col-lg-4 p:hover{
+    color: #A6824A;
+}
+
+/* Cards section end  */
+
+/* footer section start  */
+
+section .container {
+   position: relative;
+
+}
+section .row .col .content{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    color: black;
+}
+section .row .col .content P {
+    position: absolute;
+    top:205px;
+    left: 0PX;
+    font-size: 15PX;
+}
+section .row .col .content H5{
+    position: absolute;
+    top:205px;
+    left: 400PX;
+    font-size: 18PX; 
+    font-weight: 600; 
+}
+section .row .col .content H6{
+    position: absolute;
+    top:205px;
+    left: 700PX;
+    font-size: 14PX; 
+    color: white; 
+}
+section .row .col .line{
+    position: absolute;
+    top:200px;
+
+    border: 1px solid white;
+    width: 100%;
+}
+section .row .col .vertical{
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    border-left:2px solid white;
+    height: 200px;
+}
+section .row .col .vertical2{
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    border-left:2px solid white;
+    height: 210px;
+}
+/* footer section end  */
+
+
+
+
+/* max width:576 */
+@media (max-width:576px) 
+{
+    #video .row .col-12 h2 {
+        font-size: 30px;
+    }
+
+    #video .row .col-6 .img-fluid {
+        height: 150px;
+        width: 100%;
+    }
+}

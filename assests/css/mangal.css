@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+.bg-black {
+    background-color: #171245;
+}
+
+/* Header sect56n start  */
+header {
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 99;
+
+
+}
+
+header .img-fluid {
+    width: 190px;
+    height: 70px;
+    float: left;
+    margin-left: 90px;
+}
+
+header nav {
+    float: right;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+header nav ul li {
+    height: 50px;
+    line-height: 70px;
+    padding: 0px 10px;
+    transition: all 0.3s;
+
+}
+
+header nav ul .menu:hover {
+    position: relative;
+}
+
+header nav ul li:last-child {
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+
+}
+
+header nav ul li :hover {
+    border-bottom: 3px solid green;
+
+}
+
+header nav ul li:hover .sub_menu {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: -20px;
+
+}
+
+header nav ul li .sub_menu {
+    background-color: white;
+    display: none;
+    padding-left: 0px;
+    width: 245px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    padding: 10px 0px;
+    position: relative;
+
+}
+
+header nav ul li .sub_menu li {
+    display: block;
+    height: 35px;
+    line-height: 40px;
+    padding: 0px 20px;
+    transition: all 0.3s;
+    text-align: left;
+}
+
+header nav ul li .sub_menu a {
+    color: black;
+    border-bottom: none;
+}
+
+header nav ul li .sub_menu li:hover {
+
+    background-color: #DDDDDD;
+
+}
+
+header nav ul li .sub_menu div {
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    color: white;
+    text-align: left;
+}
+
+header .toggler-btn {
+    color: black;
+    float: right;
+    line-height: 70px;
+    margin-right: 30px;
+    display: none;
+}
+
+.header-scroll {
+    box-shadow: 0px 8px 10px 0px gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    transition: all 0.9s;
+}
+
+.header-scroll ul li a {
+    color: black;
+}
+
+.header-scroll .img-fluid {
+    width: 150px;
+}
+
+.header-scroll .toggler-btn {
+    color: black;
+}
+
+.header .offcanvas-body {
+    padding: 0;
+}
+
+.header .offcanvas-body li {
+    list-style: none;
+    height: auto;
+    line-height: 40px;
+    margin-right: 60px;
+    transition: all 0.3s;
+
+}
+
+.header .offcanvas-body li a {
+    color: black;
+    text-decoration: none;
+}
+
+.header .offcanvas-body ul li:hover {
+    border-bottom: 3px solid green;
+}
+
+/* Header section end  */
+
+/* Banner section start  */
+#banner {
+    background: url(../img/mangalimg/whymangal.jpg)no-repeat;
+    width: 100%;
+    background-position: center;
+    height: 400px;
+    background-size: cover;
+}
+
+/* Banner section end  */
+
+/* content section start  */
+#content .container .row .col h5 {
+    padding: 50px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+#content .container .row .col p {
+    margin: 31px;
+    font-size: 16px;
+    line-height: 30px;
+}
+/* content section end  */
+
+/* control section start */
+
+#control{
+    background: linear-gradient(rgba(5, 5, 5, 0.8), rgba(0, 0, 0, 0.8)),url(../img/mangalimg/f1.jpg)no-repeat fixed;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+/* control section end */
+
+/* farmer section start  */
+#farmer{
+    background: linear-gradient(rgba(173, 168, 168, 0.9), rgba(0, 0, 0, 0.9)),url(../img/mangalimg/s5.jpg)no-repeat fixed;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+#farmer .row .col-md-4 .box {
+    align-items: center;
+    justify-content: center;
+}
+/* farmer section end  */
+
+/* Organic section start  */
+#organic{
+    background: linear-gradient(rgba(44, 43, 43, 0.7), rgba(0, 0, 0, 0.7)),url(../img/mangalimg/s5.jpg)no-repeat fixed;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+#organic .box{
+    border: 2px solid white;
+    height: auto;
+    background-color: white;
+    margin: 10px;
+}
+#organic .box img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+#organic .box h3{
+    text-align: center;
+    color: black;
+}
+
+#organic .box p{
+    padding: 10px 40px;
+    color: black;
+    
+}
+/* organic section end  */
+
+/* Footer section start */
+footer {
+    background-color: black;
+}
+
+
+/* Footer section end */
+
+/* max width:992 */
+@media (max-width:992px) {
+    header nav {
+        display: none;
+    }
+
+    header .toggler-btn {
+        display: block;
+
+    }
+}

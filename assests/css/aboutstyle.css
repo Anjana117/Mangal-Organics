@@ -94,11 +94,13 @@ header nav ul li .sub_menu li {
 
 header nav ul li .sub_menu a {
     color: black;
+    border-bottom: none;
 }
 
 header nav ul li .sub_menu li:hover {
 
     background-color: #DDDDDD;
+    
 }
 
 header nav ul li .sub_menu div {
