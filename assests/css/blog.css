@@ -97,31 +97,33 @@ header nav ul li :hover {
 }
 /* Header section end  */
 /* Cards section start  */
-#cards .row .col-lg-4 .box{
+#cards .row .col-12 .box{
     margin-top: 30px;
     border: 2px solid rgb(228, 226, 226);
 }
-#cards .row .col-lg-4 .box img{
+
+#cards .row .col-12 .box .img-fluid{
     width: 100%;
 }
-#cards .row .col-lg-4 h4{
+#cards .row .col-12 .box h4{
     font-size: 20px;
-    padding: 5px 30px 0px 30px;
+    padding: 5px 30px 0px 30px;   
 }
-#cards .row .col-lg-4 p{
+#cards .row .col-12 .box p{
     font-size: 15px;
     padding: 0px 30px 20px 30px;
 }
-#cards .row .col-lg-4 h4:hover{
+
+#cards .row .col-12 .box h4:hover{
     color: #A6824A;
 }
-#cards .row .col-lg-4 p:hover{
+#cards .row .col-12 .box p:hover{
     color: #A6824A;
 }
 
 /* Cards section end  */
 
-/* footer section start  */
+/* content section start  */
 
 section .container {
    position: relative;
@@ -131,7 +133,7 @@ section .row .col .content{
     position: absolute;
     top: 100px;
     left: 300px;
-    color: black;
+    color: white;
 }
 section .row .col .content P {
     position: absolute;
@@ -141,8 +143,8 @@ section .row .col .content P {
 }
 section .row .col .content H5{
     position: absolute;
-    top:205px;
-    left: 400PX;
+    top:0px;
+    left: 0px;
     font-size: 18PX; 
     font-weight: 600; 
 }
@@ -174,20 +176,9 @@ section .row .col .vertical2{
     border-left:2px solid white;
     height: 210px;
 }
-/* footer section end  */
 
 
 
 
-/* max width:576 */
-@media (max-width:576px) 
-{
-    #video .row .col-12 h2 {
-        font-size: 30px;
-    }
 
-    #video .row .col-6 .img-fluid {
-        height: 150px;
-        width: 100%;
-    }
-}
+
